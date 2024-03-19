@@ -1,0 +1,171 @@
+# -------------------
+# Jekyll Config
+# --------------------
+baseurl: ""
+url: ""
+permalink: pretty
+markdown: kramdown
+highlighter: rouge
+collections_dir: collections
+
+# Plugins
+plugins:
+  - jekyll-environment-variables
+  - jekyll-paginate
+
+paginate: 6
+paginate_path: "/blog/page/:num"
+
+collections:
+  projects:
+    output: true
+    permalink: /:collection/:path/
+  posts:
+    output: true
+    permalink: /blog/:path/
+
+defaults:
+  - scope:
+      path: ""
+      type: projects
+    values:
+      layout: project
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: post
+      weight: 999
+  - scope:
+      path: "images"
+    values:
+      image: true
+  - scope:
+      path: "categories"
+    values:
+      permalink: /category/:basename/
+  - scope:
+      path: "pages"
+    values:
+      permalink: /:basename/
+
+# SCSS
+sass:
+  style: compact
+
+# Excludes
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - LICENSE
+  - netlify.toml
+
+
+# -------------------
+# Theme Config
+# --------------------
+title: "Jekyll Curate"
+category_dir: category
+
+colors:
+  #light-mode colors
+  primary: "#0d042b"
+  primary_2: "#0d042b"
+  primary_text: "#fdfcf9"
+  secondary: "#faebd7"
+  background: "#fdfcf9"
+  background_2: "#f7f6ed"
+  background_3: "#faebd7"
+  text: "#0d042b"
+  text_2: "#3b364c"
+  logo_text: "#0d042b"
+  menu_text: "#0d042b"
+
+  # dark-mode colors
+  primary_dark: "#fdfcf9"
+  primary_2_dark: "#fdfcf9"
+  primary_text_dark: "#f5f5ec"
+  secondary_dark: "#251654"
+  background_dark: "#0b0326"
+  background_2_dark: "#150c32"
+  background_3_dark: "#251654"
+  text_dark: "#f5f5ec"
+  text_2_dark: "#929eaf"
+  logo_text_dark: "#fdfcf9"
+  menu_text_dark: "#fdfcf9"
+
+fonts:
+  google_fonts: "https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Fira+Mono&display=swap"
+  heading: "DM Sans"
+  base: "DM Sans"
+  monospace: "Fira Mono"
+  logo: "DM Sans"
+
+logo:
+  logo_text: "Jekyll Curate"
+  logo_image: assets/images/logo/logo.png
+  logo_image_mobile: assets/images/logo/logo-mobile.png
+  logo_image_invert: assets/images/logo/logo-invert.png
+  logo_image_invert_mobile: assets/images/logo/logo-invert-mobile.png
+  logo_image_desktop_height: "28px"
+  logo_image_desktop_width: "28px"
+  logo_image_mobile_height: "28px"
+  logo_image_mobile_width: "28px"
+  show_logo_image_on_mobile: true
+  show_logo_image_on_desktop: true
+  show_logo_text_on_mobile: false
+  show_logo_text_on_desktop: false
+  
+seo:
+  meta_opengraph_type: "website"
+  meta_twitter_card: "summary"
+  meta_twitter_site: "@zerostaticio"
+  meta_twitter_creator: "@zerostaticio"
+
+header: 
+  fixed: false
+
+darkmode:
+  enable_dark_mode: true
+  show_dark_mode_toggle_in_header: true
+  show_dark_mode_toggle_in_bottom: false
+  show_dark_mode_toggle_in_mobile_menu: true
+
+analytics:
+  google_analytics_id: ""
+
+disqus:
+  shortname: "" # Your disqus shortcode. leave this blank to disable comments globally
+
+mailchimp:
+  form_action_url: https://zerostatic.us13.list-manage.com/subscribe/post?u=675276692aebec1c007f8156d&amp;id=3e3da720c2
+
+contact_form: 
+  use_netlify_form: false
+  use_formspree_form: true
+  formspree_endpoint: https://formspree.io/f/moqyklqv
+  netlify_form_name: "contact"
+
+menu: 
+  show_dropdown_items_in_mobile_menu: false
+  show_social_media_in_mobile_menu: true
+
+footer:
+  enable_footer: true # show/hide the entire footer
+  footer_title: "Jekyll Curate"
+  footer_description: "Curate is a creative portfolio for Jekyll by Zerostatic Themes."
+  enable_social_media_icons: true
+  enable_contact_details: false
+  enable_menu_footer_primary: true
+  enable_menu_footer_secondary: true
+  enable_menu_footer_tertiary: false
+  footer_primary_menu_title: "Product"
+  footer_secondary_menu_title: "Company"
+  footer_tertiary_menu_title: "Other"
+
+bottom:
+  enable_bottom: false # show/hide the entire bottom (below the footer)
+  enable_bottom_menu: false # if enabled, the bottom menu can be edited in `_data/menu.yml`
+  copyright_text: "© 2021 Zerostatic Themes"
+

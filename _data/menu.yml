@@ -1,0 +1,81 @@
+main:
+  - name: Home
+    url: /
+    weight: 1
+  - name: Projects
+    url: /projects/
+    weight: 2
+    child:
+      - name: "Project Layout 1"
+        icon: "/assets/images/icons/wireframe-7.svg"
+        icon_darkmode: "/assets/images/icons/wireframe-7-white.svg"
+        description: "Default Project layout"
+        url: /projects/project-1/
+      - name: "Project Layout 2"
+        icon: "/assets/images/icons/wireframe-5.svg"
+        icon_darkmode: "/assets/images/icons/wireframe-5-white.svg"
+        description: "Right side layout"
+        url: /projects/project-2/
+      - name: "Project Layout 3"
+        icon: "/assets/images/icons/wireframe-6.svg"
+        icon_darkmode: "/assets/images/icons/wireframe-6-white.svg"
+        description: "Left side layout"
+        url: /projects/project-3/
+      - name: "Project Layout 4"
+        icon: "/assets/images/icons/wireframe-8.svg"
+        icon_darkmode: "/assets/images/icons/wireframe-8-white.svg"
+        description: "Top layout"
+        url: /projects/project-4/
+  - name: Blog
+    url: /blog/
+    weight: 2
+  - name: About
+    url: /about/
+    weight: 3
+  - name: Contact
+    url: /contact/
+    weight: 4
+  
+
+footer_primary:
+  - name: "Project Layout 1"
+    url: /projects/project-1/
+  - name: "Project Layout 2"
+    url: /projects/project-2/
+  - name: "Project Layout 3"
+    url: /projects/project-3/
+  - name: "Project Layout 4"
+    url: /projects/project-4/
+
+footer_secondary:
+  - name: Blog
+    url: /blog/
+    weight: 2
+  - name: About
+    url: /about/
+    weight: 3
+  - name: Contact
+    url: /contact/
+    weight: 4
+  - name: Privacy Policy
+    url: /privacy-policy/
+    weight: 1
+  - name: Terms and Conditions
+    url: /terms-and-conditions/
+    weight: 2
+
+footer_tertiary:
+  - name: Privacy Policy
+    url: /privacy-policy/
+    weight: 1
+  - name: Terms and Conditions
+    url: /terms-and-conditions/
+    weight: 2
+
+bottom:
+  - name: Privacy Policy
+    url: /privacy-policy/
+    weight: 3
+  - name: Terms and Conditions
+    url: /terms-and-conditions/
+    weight: 4

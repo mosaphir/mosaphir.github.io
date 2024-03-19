@@ -1,0 +1,112 @@
+.page-project {
+  .project-heading {
+    h1 {
+      font-size: 36px;
+      letter-spacing: -2px;
+      line-height: 1.2;
+      font-weight: 700;
+      margin-bottom: 10px;
+      @include media-breakpoint-up(md) {
+        font-size: 48px;
+      }
+    }
+  }
+  .project-categories {
+    margin-bottom: 40px;
+    a {
+      color: var(--color-base-text);
+      font-weight: 600;
+    }
+  }
+  .project-description {
+    width: 80%;
+    p {
+
+    }
+  }
+  .gallery {
+    .gallery-item {
+      .gallery-image {
+        img {
+          vertical-align: bottom;
+          max-width: 100%;
+          height: auto;
+        }
+      }
+      .gallery-caption {
+        margin-top: 5px;
+        font-size: 14px;
+        strong {
+          font-weight: 600;
+        }
+        span {
+          color: var(--color-base-text-2);
+          font-weight: 400;
+        }
+      }
+    }
+  }
+  .gallery-single-column {
+    display: grid;
+    gap: $grid-gutter-width;
+    grid-template-columns: 1fr;
+  }
+  .gallery-two-column {
+    display: grid;
+    gap: $grid-gutter-width;
+    grid-template-columns: 1fr;
+    @include media-breakpoint-up(md) {
+      grid-template-columns: 1fr 1fr;
+      grid-auto-rows: 300px;
+    }
+    @include media-breakpoint-up(md) {
+      grid-auto-rows: 400px;
+    }
+    
+    .gallery-item {
+      overflow: hidden;
+    }
+  }
+  .gallery-masonry {
+    margin-left: calc(#{$grid-gutter-width} / 2 * -1);
+    margin-right: calc(#{$grid-gutter-width} / 2 * -1);
+    display: flex;
+
+    .gallery-sizer {
+      width: 100%;
+      @include media-breakpoint-up(md) {
+        width: 50%;
+      }
+    }
+    .gallery-item {
+      padding: 15px;
+      width: 100%;
+      @include media-breakpoint-up(md) {
+        width: 50%;
+      }
+    }
+  }
+  .content {
+    @include media-breakpoint-up(md) {
+      width: 90%;
+    }
+  }
+  .project-stats {
+    margin-top: 50px;
+  }
+  .project-date,
+  .project-role,
+  .project-client {
+    margin-bottom: 10px;
+    font-size: 16px;
+    strong {
+      display: inline-block;
+      font-weight: 600;
+      width: 70px;
+    }
+    span {
+      display: inline-block;
+      font-weight: 400;
+    }
+  }
+}

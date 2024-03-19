@@ -1,0 +1,19 @@
+.page-post {
+  .title {
+    h1 {
+      font-weight: 500;
+    }
+  }
+  .categories {
+    a {
+      font-size: 15px;
+      background: var(--color-primary);
+      color: var(--color-primary-text);
+      display: inline-flex;
+      font-family: $font-family-monospace;
+      padding: 6px 12px;
+      border-radius: $card-border-radius;
+      margin-right: 10px;
+    }
+  }
+}

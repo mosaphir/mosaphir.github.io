@@ -1,0 +1,18 @@
+sage_kirk:
+  title: "Sage Kirk"
+  name: "Sage Kirk"
+  job: "Co-founder & CEO"
+  image: "assets/images/team/sage-kirk.jpg"
+  bio: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Bibendum arcu vitae elementum curabitur vitae nunc sed. Tortor at risus viverra adipiscing at in."
+mike_vance:
+  title: "Mike Vance"
+  name: "Mike Vance"
+  job: "Developer Relations"
+  image: "assets/images/team/mike-vance.jpg"
+  bio: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Bibendum arcu vitae elementum curabitur vitae nunc sed. Tortor at risus viverra adipiscing at in."
+marc_paulo:
+  title: "Mark Paulo"
+  name: "Mark Paulo"
+  job: "Developer Relations"
+  image: "assets/images/team/marc-paulo.jpg"
+  bio: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Bibendum arcu vitae elementum curabitur vitae nunc sed. Tortor at risus viverra adipiscing at in."

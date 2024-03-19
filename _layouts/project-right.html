@@ -1,0 +1,67 @@
+---
+layout: default
+body_classes: page-project
+---
+
+{% assign limit = page.gallery_limit | default: nil %}
+
+<div class="section">
+  <div class="container">
+    <div class="row justify-content-center">
+
+      <div class="col-12 col-md-6">
+
+        {% if page.title %}
+          <div class="project-heading">
+            <h1>{{ page.title }}</h1>
+          </div>
+        {% endif %}
+
+        {% if page.categories %}
+          <div class="project-categories">
+          {% include framework/blocks/components/categories-badges.html 
+              categories=page.categories
+          %}
+          </div>
+        {% endif %}
+
+        <div class="content">{{ content }}</div>
+
+        {% if page.date or page.client or page.role %}
+          <div class="project-stats">
+          {% if page.date %}
+            <div class="project-date">
+              <strong>Date </strong><span>{{ page.date | date_to_long_string }}</span>
+            </div>
+          {% endif %}
+
+          {% if page.client %}
+            <div class="project-client">
+              <strong>Client </strong><span>{{ page.client }}</span>
+            </div>
+          {% endif %}
+
+          {% if page.role %}
+            <div class="project-role">
+              <strong>Role </strong><span>{{ page.role }}</span>
+            </div>
+          {% endif %}
+          </div>
+        {% endif %}
+
+      </div>
+
+      <div class="col-12 col-md-6 mt-6 mt-md-0">
+        <div class="gallery gallery-single-column">
+          {% for item in page.gallery limit: limit %}
+            <div class="gallery-item">
+              <div class="gallery-image"><img src="{{ item.image | relative_url }}"/></div>
+              <div class="gallery-caption">{{ item.caption }}</div>
+            </div>
+          {% endfor %}
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div>
