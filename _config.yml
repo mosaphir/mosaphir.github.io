@@ -65,7 +65,7 @@ exclude:
 # -------------------
 # Theme Config
 # --------------------
-title: "Jekyll Curate"
+title: "Mosaphir"
 category_dir: category
 
 colors:
@@ -103,7 +103,7 @@ fonts:
   logo: "DM Sans"
 
 logo:
-  logo_text: "Jekyll Curate"
+  logo_text: "Mosaphir"
   logo_image: assets/images/logo/logo.png
   logo_image_mobile: assets/images/logo/logo-mobile.png
   logo_image_invert: assets/images/logo/logo-invert.png
@@ -120,8 +120,8 @@ logo:
 seo:
   meta_opengraph_type: "website"
   meta_twitter_card: "summary"
-  meta_twitter_site: "@zerostaticio"
-  meta_twitter_creator: "@zerostaticio"
+  meta_twitter_site: "@mosaphir"
+  meta_twitter_creator: "@mosaphir"
 
 header: 
   fixed: false
@@ -142,8 +142,8 @@ mailchimp:
   form_action_url: https://zerostatic.us13.list-manage.com/subscribe/post?u=675276692aebec1c007f8156d&amp;id=3e3da720c2
 
 contact_form: 
-  use_netlify_form: false
-  use_formspree_form: true
+  use_netlify_form: true
+  use_formspree_form: false
   formspree_endpoint: https://formspree.io/f/moqyklqv
   netlify_form_name: "contact"
 
@@ -156,7 +156,7 @@ footer:
   footer_title: "Jekyll Curate"
   footer_description: "Curate is a creative portfolio for Jekyll by Zerostatic Themes."
   enable_social_media_icons: true
-  enable_contact_details: false
+  enable_contact_details: true
   enable_menu_footer_primary: true
   enable_menu_footer_secondary: true
   enable_menu_footer_tertiary: false
@@ -167,5 +167,5 @@ footer:
 bottom:
   enable_bottom: false # show/hide the entire bottom (below the footer)
   enable_bottom_menu: false # if enabled, the bottom menu can be edited in `_data/menu.yml`
-  copyright_text: "© 2021 Zerostatic Themes"
+  copyright_text: "© 2024 Mosaphir"
 
