@@ -136,7 +136,7 @@ analytics:
   google_analytics_id: ""
 
 disqus:
-  shortname: "" # Your disqus shortcode. leave this blank to disable comments globally
+  shortname: "mosaphir" # Your disqus shortcode. leave this blank to disable comments globally
 
 mailchimp:
   form_action_url: https://zerostatic.us13.list-manage.com/subscribe/post?u=675276692aebec1c007f8156d&amp;id=3e3da720c2
@@ -153,8 +153,8 @@ menu:
 
 footer:
   enable_footer: true # show/hide the entire footer
-  footer_title: "Jekyll Curate"
-  footer_description: "Curate is a creative portfolio for Jekyll by Zerostatic Themes."
+  footer_title: "Mosaphir"
+  footer_description: "Mosaphir,Developers From Bangladesh 🇧🇩"
   enable_social_media_icons: true
   enable_contact_details: true
   enable_menu_footer_primary: true
