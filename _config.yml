@@ -2,7 +2,7 @@
 # Jekyll Config
 # --------------------
 baseurl: ""
-url: ""
+url: "https://mosaphir.netlify.app"
 permalink: pretty
 markdown: kramdown
 highlighter: rouge
