@@ -1,5 +1,5 @@
 ---
-title: "Privacy policy Word By Video compress app"
+title: "Privacy policy for Video compress app"
 date: 2024-03-20
 layout: basic
 permalink: "/privacy/videocom"
