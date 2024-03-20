@@ -2,7 +2,7 @@
 title: "Privacy Policy For Budget Manager app"
 date: 2024-03-20
 layout: basic
-permalink: "/privacy/budget"
+permalink: "/privacy/budget1"
 ---
 
 **Privacy Policy**
