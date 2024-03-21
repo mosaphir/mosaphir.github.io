@@ -1,4 +1,9 @@
-
+---
+title: "Privacy Policy For Cool Text app"
+date: 2024-03-21
+layout: basic
+permalink: "/privacy/cooltext"
+---
 
 **Privacy Policy**
 
