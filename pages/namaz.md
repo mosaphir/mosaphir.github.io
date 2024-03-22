@@ -2,7 +2,7 @@
 title: "Privacy Policy For নূরানী নামাজ শিক্ষা app"
 date: 2024-03-21
 layout: basic
-permalink: "/privacy/cooltext"
+permalink: "/privacy/namazshikkha"
 ---
 
 **Privacy Policy**
