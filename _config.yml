@@ -157,7 +157,7 @@ footer:
   footer_description: "Mosaphir,Developers From Bangladesh 🇧🇩"
   enable_social_media_icons: true
   enable_contact_details: true
-  enable_menu_footer_primary: true
+  enable_menu_footer_primary: false
   enable_menu_footer_secondary: true
   enable_menu_footer_tertiary: false
   footer_primary_menu_title: "Product"
