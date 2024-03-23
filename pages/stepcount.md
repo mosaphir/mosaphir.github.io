@@ -1,3 +1,10 @@
+---
+title: "Privacy Policy For Step Counter app"
+date: 2024-03-21
+layout: basic
+permalink: "/privacy/stepcount"
+---
+
 **Privacy Policy**
 
 This privacy policy is applicable to the Step Counter app (hereinafter referred to as "Application") for mobile devices, which was developed by Saikot Hasan (hereinafter referred to as "Service Provider") as a a Free service. This service is provided "AS IS".
